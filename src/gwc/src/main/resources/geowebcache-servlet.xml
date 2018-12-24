@@ -22,6 +22,8 @@
   <import resource="geowebcache-wmtsservice-context.xml"/>
 
   <import resource="geowebcache-diskquota-context.xml"/>
+  <!-- 增加arcgis瓦片图发布配置 -->
+  <import resource="geowebcache-arcgiscache-context.xml"/>
     
   <!--
     This mappings are different from the standalone gwc ones in that they prepend the /gwc prefix to the context so it
