@@ -15,6 +15,8 @@
      <constructor-arg value="geowebcache.xml" />
      <constructor-arg ref="resourceStore" />
   </bean>
+
+  <bean id="gwcArcGIGridsetConfigutation" class="org.geowebcache.arcgis.layer.ArcGISCacheGridsetConfiguration"/>
   
   <!-- The location of a static configuration file for GeoWebCache. 
        By default this lives in WEB-INF/classes/geowebcache.xml -->
